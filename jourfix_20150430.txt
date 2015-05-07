@@ -1,0 +1,19 @@
+# Jour fix 2015-04-30
+
+## Wiki
+Wiki-Zugriff sollte bald verfuegbar sein - Nils
+
+
+## REST-Conversion
+Ticket schreiben, weil die Display-Unit nicht respektiert wird - RG
+Ticket schreiben, weil Grad Celsius nicht angezeigt wird  - RG
+
+## JEDataCollector
+Feature-request: Lokaler Datenimport - Nils, low priority
+
+## Performance
+test ging nur um die Java-API Schnittstelle
+REST-API sollte noch gebenchmarkt werden
+
+## Protokoll
+Wohin kommen die Protokolle, Github vs openjevis.org - Max

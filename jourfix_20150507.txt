@@ -1,0 +1,59 @@
+# Jour fix 2015-05-07
+
+## REST-API - RG
+get children, es gibt schon hooks, aber noch nichts implementiert. Es sollte moeglich sein
+
+## Java-fx package - Bilal
+Fuer table-view gibt es ein package, aber dieses ist zur zeit noch nicht java-kompatibel. Aber es gibt einen snapshop, der schon funktioniert.
+
+## Grenzen in SI-Units
+Jevis2:
+Abgespeichert in SI-Einheiten, er muss noch nachschauen in welchem Format es nun rein kommt. 
+Weiterer Bug, cleaning geht nur ab jetzt. Man muss gecleante samples loeschen
+
+JEVis3:
+clean nodes gibt es noch nicht, aber es soll es geben. Beispielhafte implementierungen (DataProcessor) schon vorhanden. zB der Cleaner, Leistungsgrenzenmacher2000.
+Es soll komponenten geben, die per Job gesteuert werden, und andere on the fly beim import
+Wiki-link vorhanden
+
+## Database Dump
+erfolgreich eingespielt und Passwort veraendert
+
+## Lokale Verbindungsabbrueche
+Lokal Verbindunsabbrueche (Bilal), 2 klassen erzeugt - verbindung weg - neue klassen erstellen - Florian
+
+## WebService-Cache
+Es wird nicht ueberprueft ob neue Daten vorhanden sind oder nicht
+Schaut er sich noch an - Florian
+caching deaktivieren? Sollte leicht moeglich sein.
+Caching wird noch verbessert, eventuell lokal cachen fuer JEConfig
+
+
+# Coffee - Datenstruktur - Hauer Stefan
+
+## Datenstruktur fixieren
+eine Klasse Fassade
+- Arrays aufteilen auf einzelne Attribute
+	- 2 Floor-Objekte anlegen, wenn es 2 floors sind
+
+Datenstruktur ueberlegt Stefan und Envidatech ueberprueft diese bis naechste Woche
+
+Building-ID kann eine JEVis-ID sein, Stefan braucht nur einen Angriffspunkt zu welchem Gebaeude die Daten gehoeren
+
+## Building System
+
+HVAC aufteilen, oder neues Objekt (idealisiert)
+Stefan soll es so machen wie er es sich vorstellt
+
+## Ergebnisse zurueckspeichern
+
+Zeitreihe Ablegen von Simulation oder der Kommulierte Werte (ein Wert pro Jahressimulation)
+Wir nehmen die Kommulierten Werte jeder Simulation
+Simulation fuer welches Jahr? - In der Gui zur Zeit default: heute bis heute+1 Jahr, also from-to auch abspeichern
+
+## Schreibefunktion funktioniert nicht - Filip
+Filip soll requests an Florian schicken
+
+Florian moechte Fehlermeldungen noch verbessern
+
+
